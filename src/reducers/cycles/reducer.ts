@@ -54,7 +54,7 @@ export const cycleReducer = (state: CyclesState, action: any) => {
             })
         }
         default:
-            break;
+            return state
     }
 
 }
