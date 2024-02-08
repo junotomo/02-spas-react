@@ -37,7 +37,6 @@ export const CountDown = () => {
 
         return () => {
             clearInterval(interval)
-            setSecondsPassed(0)
         }
     },[activeCycle,totalSeconds, activeCycleID, markCurrentCycleAsFineshed, setSecondsPassed])
 
